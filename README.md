@@ -1,0 +1,1 @@
+First HTML/CSS project in The Odin Project demonstrating recent learning of the concepts creating my own version of the Google homepage.
