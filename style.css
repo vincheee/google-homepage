@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+
+header ul {
+  float: right;
+  margin: 20px;
+  padding: 5px;
+}
+header li {
+  display: inline;
+  padding: 7px;
+}
+
+li:hover {
+  color: #5f6369;
+  text-decoration: underline;
+}
+
+img {
+  height: 92px;
+  margin: 0px 40.5%;
+  padding-top: 135px;
+  width: 273px;
+}
+
+form {
+  padding: 22px;
+  text-align: center;
+}
+
+.srchbutton {
+  border: 1px solid #dfe1e4;
+  border-radius: 30px;
+  height: 42px;
+  width: 42%;
+}
+
