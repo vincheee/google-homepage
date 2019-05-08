@@ -1,6 +1,7 @@
-body {
+html, body {
   font-family: Arial, sans-serif;
   font-size: 13px;
+  height: 100%;
 }
 
 header ul {
@@ -19,21 +20,81 @@ li:hover {
 }
 
 img {
-  height: 92px;
-  margin: 0px 40.5%;
-  padding-top: 135px;
-  width: 273px;
+  height: 90px;
+  width: 270px;
+}
+
+.centerimg {
+  padding-top: 190px;
+  position: relative;
+  top: 20%;
+  left: 40%;
 }
 
 form {
-  padding: 22px;
+  padding: 24px;
   text-align: center;
 }
 
-.srchbutton {
+.searchbar {
   border: 1px solid #dfe1e4;
   border-radius: 30px;
+  font-size: 16px;
+  padding-left: 20px;
   height: 42px;
-  width: 42%;
+  width: 40%;
 }
 
+.searchbutton {
+  background-color: #f1f1f1;
+  border: 1px solid #f1f1f1;
+  border-radius: 6px;
+  color: #5f6369;
+  font-size: 14px;
+  margin: 32px 5px;
+  padding: 9px 15px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  border: .5px solid #e4e4e4;
+  bottom: 0;
+  color: #6f6f6f;
+  position: absolute;
+  width: 100%;
+}
+
+footer p {
+  font-size: 15px;
+  line-height: 41px;
+  margin-left: 28px;
+}
+
+footer ul {
+  border: .5px solid #e4e4e4;
+}
+
+footer li {
+  display: inline;
+  font-size: 13px;
+  line-height: 41px;
+}
+
+.leftfooter {
+  float: left;
+  margin-left: 28px;
+}
+
+.rightfooter {
+  float: right;
+  margin-right: 28px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

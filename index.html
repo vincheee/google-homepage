@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="description" content="Google Homepage Project">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="/Users/gemalynbonaobra/odin_project/webdev/main_css_reset.css" media="all">
   <link rel="stylesheet" type="text/css" href="style.css" media="all">
   <title>Google</title>
@@ -12,36 +11,32 @@
 <body>
   <header>
     <ul>
-     <li>Gmail</li>
-     <li>Images</li>
-     <li>Apps</li>
-     <li>Sign in</li>
+     <li><a href="#">Gmail</a></li>
+     <li><a href="#">Images</a></li>
+     <li><a href="#">Apps</a></li>
+     <li><a href="#">Sign in</a></li>
     </ul>
   </header>
   <br>
 
-  <img src="google-logo.png" alt="Google logo"><br>
+  <img src="google-logo.png" alt="Google logo" class="centerimg"><br>
 
   <form action="#" method="GET">
-    <input type="text" name="search" class="srchbutton"><br>
-    <input type="submit" value="Google Search">
-    <input type="button" value="I'm Feeling Lucky">
+    <input type="text" name="search" class="searchbar"><br>
+    <input type="submit" value="Google Search" class="searchbutton">
+    <input type="button" value="I'm Feeling Lucky" class="searchbutton">
   </form>
 
   <footer>
-    <h4>Japan</h4>
-
-    <ul>
-      <li>Advertising</li>
-      <li>Business</li>
-      <li>About</li>
-    </ul>
-
-    <ul>
-      <li>Privacy</li>
-      <li>Terms</li>
-      <li>Settings</li>
-    </ul>
+    <p>Japan</p>
+      <ul>
+        <li class="leftfooter"><a href="#">Advertising</a></li>
+        <li class="leftfooter"><a href="#">Business</a></li>
+        <li class="leftfooter"><a href="#">About</a></li>
+        <li class="rightfooter"><a href="#">Settings</a></li>
+        <li class="rightfooter"><a href="#">Terms</a></li>
+        <li class="rightfooter"><a href="#">Privacy</a></li>
+      </ul>
   </footer>
 </body>
 </html>
