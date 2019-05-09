@@ -2,11 +2,12 @@ html, body {
   font-family: Arial, sans-serif;
   font-size: 13px;
   height: 100%;
+  overflow: hidden;
 }
 
 header ul {
   float: right;
-  margin: 20px;
+  margin: 20px 40px;
   padding: 5px;
 }
 header li {
@@ -17,6 +18,28 @@ header li {
 li:hover {
   color: #5f6369;
   text-decoration: underline;
+}
+
+.loginbtn {
+  background-color: #4584f2;
+  border: 1px solid #4584f2;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  padding: 6px 12px;
+}
+
+.loginbtn:hover, .loginbtn a:link {
+  color: white;
+  cursor: default;
+  text-decoration: none;
+}
+
+.googleappbtn {
+  height: 20px;
+  padding-right: 5px;
+  vertical-align: middle;
+  width: 20px;
 }
 
 img {
@@ -40,8 +63,11 @@ form {
   border: 1px solid #dfe1e4;
   border-radius: 30px;
   font-size: 16px;
-  padding-left: 20px;
   height: 42px;
+  outline: none;
+  overflow: hidden;
+  padding-left: 20px;
+  position: static;
   width: 40%;
 }
 
@@ -51,8 +77,25 @@ form {
   border-radius: 6px;
   color: #5f6369;
   font-size: 14px;
-  margin: 32px 5px;
+  margin: 32px 5px 4px 5px;
   padding: 9px 15px;
+}
+
+.searchmic {
+  background-image: url(googlemic.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  display: inline-block;
+  overflow: visible;
+}
+
+.centerp {
+  text-align: center;
+}
+
+.blue {
+  color: #190dab;
 }
 
 footer {
