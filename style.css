@@ -2,7 +2,7 @@ html, body {
   font-family: Arial, sans-serif;
   font-size: 13px;
   height: 100%;
-  overflow: hidden;
+  min-width: 980px;
 }
 
 header ul {
@@ -56,16 +56,13 @@ li:hover {
   opacity: 1.0;
 }
 
-img {
-  height: 90px;
-  width: 270px;
-}
-
 .centerimg {
-  padding-top: 190px;
-  position: relative;
-  top: 20%;
-  left: 40%;
+  display: block;
+  height: 90px;
+  margin-top: 190px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 270px;
 }
 
 form {
@@ -74,17 +71,21 @@ form {
 }
 
 .searchbar {
+  background-image: url(googlemic.png);
+  background-position: 97% 11px;
+  background-repeat: no-repeat;
+  background-size: 19px;
   border: 1px solid #dfe1e4;
   border-radius: 30px;
+  display: inline-block;
   font-size: 16px;
-  height: 42px;
+  height: 40px;
   margin: 0 auto;
   outline: none;
   padding-left: 20px;
-  position: static;
+  padding-right: 58px;
   transition: box-shadow;
-  width: 40%;
-  box-shadow: 
+  width: 480px;
 }
 
 .searchbar:hover, .searchbar:focus {
@@ -111,13 +112,6 @@ form {
   border: 1px solid #4889f3;
 }
 
-.searchmic {
-  background-image: url(googlemic.png);
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: 20px;
-}
-
 .centerp {
   text-align: center;
 }
@@ -132,6 +126,7 @@ footer {
   bottom: 0;
   color: #6f6f6f;
   position: absolute;
+  min-width: 980px;
   width: 100%;
 }
 
