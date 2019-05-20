@@ -1,1 +1,3 @@
 First HTML/CSS project in The Odin Project demonstrating recent learning of the concepts creating my own version of the Google homepage.
+
+I used HTML, CSS, Google, and web developer tools to help me on parts that I got stuck with. The main difficulty that I experienced was with CSS positioning but other than that I completed my homepage within 5 days, I could've done better but I am taking my own pace so that I can learn the concepts in a more detail approach.
